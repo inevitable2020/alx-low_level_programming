@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * moain - prints all possible combinations of two two-digits numbers
+ * main - prints all possible combinations of two two-digits numbers
  * Return: Always 0.
  */
 int main(void)
