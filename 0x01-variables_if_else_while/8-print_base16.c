@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	int n;
-	char l;
+	int number;
+	char letter;
 
-	for (n = 0; n <10; Nn++)
-		putchar((n % 10) + '0');
+	for (number = 0; number <10; number++)
+		putchar((number % 10) + '0');
 
-	for (l = 'a'; l <= 'f'; l++)
-		putchar(l);
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 	return (0);
