@@ -8,17 +8,22 @@ int main(void)
 {
 	int dig1, dig2;
 
-	for (dig1 = 0; dig1 < 9; dig1++)
+	for (dig1 = 48; dig1 <= 56; dig1++)
 	{
-		for (dig2 = dig1 + 1; dig2 < 10; dig2++)
+		for (dig2 = 49; dig2 <= 57; dig2++)
 		{
-			putchar((dig1 % 10) + '0');
-			putchar((dig2 % 10) + '0');
-			if (dig1 == 8 && dig2 == 9)
-				continue;
-			putchar(',');
-			putchr(' ');
+			if (dig1 > dig2)
+			{
+				putchar(dig1);
+				putchar(dig2);
+				if (dig1 != 56 || dig2 != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
+	
 	}
 	putchar('\n');
 	return (0);
