@@ -1,3 +1,4 @@
+#!/bi/bash
 #include <stdio.h>
 
 /**
