@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (dig2 = 49; dig2 <= 57; dig2++)
 		{
-			if (dig1 > dig2)
+			if (dig2 > dig1)
 			{
 				putchar(dig1);
 				putchar(dig2);
@@ -23,7 +23,6 @@ int main(void)
 				}
 			}
 		}
-	
 	}
 	putchar('\n');
 	return (0);
