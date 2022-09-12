@@ -1,3 +1,8 @@
+/*
+ * File: 1-Last_digit.C
+ * Auth: Afolabi Ayotomiwa Matthew
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
