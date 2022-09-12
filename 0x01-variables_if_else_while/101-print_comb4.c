@@ -2,7 +2,7 @@
 
 /**
  * main - print all possible combinations
- * Returm: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (num2 = 49; num2 < 58; num2++)
 		{
-			for (num3 = 50; num3 <58; num3++)
+			for (num3 = 50; num3 < 58; num3++)
 			{
 				if (num3 > num2 && num2 > num1)
 				{
