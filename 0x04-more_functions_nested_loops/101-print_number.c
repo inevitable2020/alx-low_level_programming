@@ -1,4 +1,9 @@
-#include "main"
+/*
+ * File: 101-print_number.c
+ * Auth: Muhammed Abdulrahaman Adinoyi
+ */
+
+#include "main.h"
 
 /**
  * print_number - prints an integer.
