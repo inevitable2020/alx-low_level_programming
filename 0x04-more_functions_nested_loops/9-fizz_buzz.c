@@ -1,8 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - prints Buzz each numbrs of 3 and 5.
- * Return: Always 0
+ * main - prints Buzz each numbers of 3 and 5.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -18,11 +18,11 @@ int main(void)
 		}
 		else if (n % 3 == 0)
 		{
-			prinf("Fizz");
+			prinf(" Fizz");
 		}
 		else if (n % 5 == 0)
 		{
-			printf("Buzz");
+			printf(" Buzz");
 		}
 		else
 		{
