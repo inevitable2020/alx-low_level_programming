@@ -7,7 +7,7 @@
  * Return: 0
  *
  */
-int mul(inta, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
