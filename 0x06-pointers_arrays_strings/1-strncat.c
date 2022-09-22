@@ -8,6 +8,7 @@
  * @n: number of bytes to receive
  * Return: char
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	unsigned int i= 0;
@@ -21,6 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		{
 			*(dest + i) = *(src + j);
 			i++;
+
 		}
 		j++;
 	}
