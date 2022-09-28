@@ -11,14 +11,14 @@
  *
  * Return: The length of the string.
  */
-int_strien_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	int len = 0;
 
 	if (*s)
 	{
 		len++;
-		len += _strien_recursion(s + 1);
+		len += _strlen_recursion(s + 1);
 	}
 
 	return (len);
