@@ -7,7 +7,7 @@
  * @n: number of bytes
  * Return: a pointer char
  */
-char *string_noncat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
 	unsigned int size1 = 0, size2 = 0, i;
