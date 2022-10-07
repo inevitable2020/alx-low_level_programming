@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * string_noncat - a function that concatenates two strings
+ * string_nconcat - a function that concatenates two strings
  * @s1: first string
  * @s2: second string
  * @n: number of bytes
  * Return: a pointer char
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
@@ -46,5 +47,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	p[i] = '\0';
 
-return (p);
+	return (p);
 }
